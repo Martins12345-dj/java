@@ -37,11 +37,32 @@
             font-size: xx-large;
             text-align: center;
         }
+
+        .content {
+            background-color: rgb(72, 6, 205);
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            padding: 10px;
+            color: white;
+            margin: 5px;
+        }
+        a{
+            color: white;
+        }
     </style>
 
 </head>
 
 <body style="background-color: lightblue;">
+
+    <div class="content">
+        <ul>
+            <li><a href="second ass.html">HISTORY OF JAVASCRIPT.</a></li>
+            <li><a href="java.html">SECOND ASSIGNMENT.</a></li>
+        </ul>
+    </div>
+
     <h1>THE HISTORY OF JAVASCRIPT FROM ES1 TO ES6.</h1>
     <br>
     <h3>JavaScript is one of the most well-known globally used software languages in today’s generation.
@@ -210,82 +231,102 @@
     <table>
         <h1>DIFFERENCES BETWEEN LET, CONST, AND VAR.</h1>
         <tr>
-            <td><h1>LET</h1></td>
-            <td><h1>CONST</h1></td>
-            <td><h1>VAR</h1></td>
+            <td>
+                <h1>LET</h1>
+            </td>
+            <td>
+                <h1>CONST</h1>
+            </td>
+            <td>
+                <h1>VAR</h1>
+            </td>
         </tr>
         <tr>
-            <td><h3>Let variables can be updated and not re-declared.</h3></td>
-            <td><h3>Const variables can neither be updated nor re-declared.</h3></td>
-            <td><h3>Var variables can be re-declared within it's scope.</h3></td>
+            <td>
+                <h3>Let variables can be updated and not re-declared.</h3>
+            </td>
+            <td>
+                <h3>Const variables can neither be updated nor re-declared.</h3>
+            </td>
+            <td>
+                <h3>Var variables can be re-declared within it's scope.</h3>
+            </td>
         </tr>
     </table>
     <br><br>
-        <h1>SIMILARITIES BETWEEN LET, CONST AND VAR.</h1>
-        <h3>Variables declared with const , just like let , are hoisted to the top of their global, local, or
-             block scope – but without a default initialization. var variables, as you've seen earlier, are hoisted
-              with a default value of undefined so they can be accessed before declaration without errors.
-        </h3>
-        <br><br>
-        <table>
-            <h1>RESERVED KEYWORDS AND THEIR MEANING</h1>
-            <tr>
-                <td><h1>RESERVED KEYWORDS</h1></td>
-                <td><h1>DESCRIPTION</h1></td>
-            </tr>
-            <tr>
-                <td>FINALLY</td>
-                <td>The finally statement defines a code block to run regardless of the result.</td>
-            </tr>
-            <tr>
-                <td>THROW</td>
-                <td>The throw statement defines a custom error.</td>
-            </tr>
-            <tr>
-                <td>RETURN</td>
-                <td>Return statements cease execution in a function and return a value to the caller.</td>
-            </tr>
-            <tr>
-                <td>STATIC</td>
-                <td>THE STATIC KEYWORD DEFINES A STATIC METHOD FOR A CLASS.</td>
-            </tr>
-            <tr>
-                <td>CATCH</td>
-                <td>The catch statement defines a code block to handle any error.</td>
-            </tr>
-            <tr>
-                <td>SHORT</td>
-                <td>IT IS USED TO REPRESENT AN INTEGER VALUE IN JAVASCRIPT</td>
-            </tr>
-            <tr>
-                <td>SWITCH</td>
-                <td>IT IS USED TO SWITCH STATEMENT EVALUATES AND EXPRESSION</td>
-            </tr>
-            <tr>
-                <td>TRY</td>
-                <td>The try statement defines a code block to run (to try)</td>
-            </tr>
-            <tr>
-                <td>SUPER*</td>
-                <td>THE SUPER KEYWORD IS USED TO ACCESS AND CALL FUNCTIONS ON AN OBJECT PARENT.</td>
-            </tr>
-        </table>
-        <br><br>
-        <table>
-            <h1>DIFFERENCES BETWEEN JAVASCRIPT AND JAVA</h1>
-            <tr>
-                <td><h1>JAVASCRIPT</h1></td>
-                <td><h1>JAVA</h1></td>
-            </tr>
-            <tr>
-                <td>JavaScript is an OOP(object-oriented program.)</td>
-                <td>Java is an object-based programming language, JavaScript is an OOP(object-oriented program.)</td>
-            </tr>
-            <tr>
-                <td>JavaScript is more commonly used in web applications like browsers</td>
-                <td>while Java is more widely used in app development, smart devices and back-end applications.</td>
-            </tr>
-        </table>
+    <h1>SIMILARITIES BETWEEN LET, CONST AND VAR.</h1>
+    <h3>Variables declared with const , just like let , are hoisted to the top of their global, local, or
+        block scope – but without a default initialization. var variables, as you've seen earlier, are hoisted
+        with a default value of undefined so they can be accessed before declaration without errors.
+    </h3>
+    <br><br>
+    <table>
+        <h1>RESERVED KEYWORDS AND THEIR MEANING</h1>
+        <tr>
+            <td>
+                <h1>RESERVED KEYWORDS</h1>
+            </td>
+            <td>
+                <h1>DESCRIPTION</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>FINALLY</td>
+            <td>The finally statement defines a code block to run regardless of the result.</td>
+        </tr>
+        <tr>
+            <td>THROW</td>
+            <td>The throw statement defines a custom error.</td>
+        </tr>
+        <tr>
+            <td>RETURN</td>
+            <td>Return statements cease execution in a function and return a value to the caller.</td>
+        </tr>
+        <tr>
+            <td>STATIC</td>
+            <td>THE STATIC KEYWORD DEFINES A STATIC METHOD FOR A CLASS.</td>
+        </tr>
+        <tr>
+            <td>CATCH</td>
+            <td>The catch statement defines a code block to handle any error.</td>
+        </tr>
+        <tr>
+            <td>SHORT</td>
+            <td>IT IS USED TO REPRESENT AN INTEGER VALUE IN JAVASCRIPT</td>
+        </tr>
+        <tr>
+            <td>SWITCH</td>
+            <td>IT IS USED TO SWITCH STATEMENT EVALUATES AND EXPRESSION</td>
+        </tr>
+        <tr>
+            <td>TRY</td>
+            <td>The try statement defines a code block to run (to try)</td>
+        </tr>
+        <tr>
+            <td>SUPER*</td>
+            <td>THE SUPER KEYWORD IS USED TO ACCESS AND CALL FUNCTIONS ON AN OBJECT PARENT.</td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+        <h1>DIFFERENCES BETWEEN JAVASCRIPT AND JAVA</h1>
+        <tr>
+            <td>
+                <h1>JAVASCRIPT</h1>
+            </td>
+            <td>
+                <h1>JAVA</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>JavaScript is an OOP(object-oriented program.)</td>
+            <td>Java is an object-based programming language, JavaScript is an OOP(object-oriented program.)</td>
+        </tr>
+        <tr>
+            <td>JavaScript is more commonly used in web applications like browsers</td>
+            <td>while Java is more widely used in app development, smart devices and back-end applications.</td>
+        </tr>
+    </table>
 </body>
 
 </html>

@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .content {
+            background-color: rgb(72, 6, 205);
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            padding: 10px;
+            color: white;
+            margin: 5px;
+        }
+
+        a {
+            color: white;
+        }
+    </style>
+
 </head>
+
 <body>
-	<h1>WELCOME TO JAVASCRIPT CLASS</h1>>
+    <div class="content">
+        <ul>
+            <li><a href="second ass.html">HISTORY OF JAVASCRIPT.</a></li>
+            <li><a href="java.html">SECOND ASSIGNMENT.</a></li>
+        </ul>
+    </div>
+
+    <h1>WELCOME TO JAVASCRIPT CLASS</h1>
     <h1 id='demo'>Welcome to css class</h1>
     <button onclick="document.getElementById('demo').innerHTML='No it is javascript class'">Click to change</button>
 
@@ -15,23 +41,24 @@
 
 
     <script>
-	 
-		let i = new Date().getDay();
-		let p = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
-		alert(`today is ${p[i]}`)
 
-        const martins={
-            Gender:['boy','girl'],
-			name:['daniel','martins','rokeeb','joshua'],
-            complexion:['dark in complexion','light in complextion'],
-            height:['tall','short','medium'],
-            village:['enugu','imo','oyo','benue'],
-			age:['18years','20years','22years'],
+        let i = new Date().getDay();
+        let p = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
+        alert(`today is ${p[i]}`)
+
+        const martins = {
+            Gender: ['boy', 'girl'],
+            name: ['daniel', 'martins', 'rokeeb', 'joshua'],
+            complexion: ['dark in complexion', 'light in complextion'],
+            height: ['tall', 'short', 'medium'],
+            village: ['enugu', 'imo', 'oyo', 'benue'],
+            age: ['18years', '20years', '22years'],
         }
-		alert(`I am a ${martins.Gender[0]}. my name is ${martins.name[1]}.
+        alert(`I am a ${martins.Gender[0]}. my name is ${martins.name[1]}.
 		I am ${martins.complexion[0]}. I am a bit ${martins.height[0]}.
 		I am from ${martins.village[0]}.I am ${martins.age[0]}.`)
 
     </script>
 </body>
+
 </html>
